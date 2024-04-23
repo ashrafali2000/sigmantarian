@@ -1,0 +1,160 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-radial-gradient-White{
+  background: radial-gradient( #3e8bffb6, #2b80ffb9, #ffffff , #ffffff ,transparent );
+  /* Add other styles as needed */
+  border-radius: 50%;
+    font-size: 250px;
+    height: 250px;
+    width: 250px;
+    filter: blur(32px);
+
+}
+
+.custom-radial-gradient-purpleWhiteSmall{
+  background: radial-gradient( #9b0fdb, #bf50f3e1, #7702ad , #ffffffea ,transparent );
+  /* Add other styles as needed */
+  border-radius: 50%;
+    font-size: 250px;
+    height: 250px;
+    width: 250px;
+    filter: blur(32px);
+}
+
+.custom-radial-gradient-purpleWhite{
+  background: radial-gradient( #7e19acda, #ffffffc5, #7515a1c9 , #ffffffc5 ,transparent );
+  /* Add other styles as needed */
+  border-radius: 50%;
+    font-size: 250px;
+    height: 700px;
+    width: 400px;
+    filter: blur(32px);
+}
+
+.custom-radial-gradient-Whitepurple{
+  background: radial-gradient( #981dd1, #981dd1, #ffffff , #981dd1 ,transparent );
+  /* Add other styles as needed */
+  border-radius: 50%;
+    font-size: 250px;
+    height: 250px;
+    width: 250px;
+    filter: blur(32px);
+}
+.hhh{
+  text-shadow: 5px 5px 5px rgb(88, 88, 88);
+}
+
+.hhhh{
+  text-shadow: 5px 8px 5px rgb(37, 37, 37);
+}
+.sb{
+  text-shadow: 2px 2px 5px rgb(182, 182, 182);
+}
+
+.subhead{
+  text-shadow: 1px 1px 3px rgb(255, 250, 250);
+}
+
+.custom-radial-gradientt{
+    background: radial-gradient( #312c6a, #4927a7, #583e9e , #55418b ,transparent );
+    /* Add other styles as needed */
+    width: 200px; /* Example width */
+    height: 200px; /* Example height */
+}
+.custom-radial-gradienttt{
+    background: radial-gradient(#312c6a, #583e9e , #4b397e54);
+    width: 300px; /* Example width */
+    height: 300px; /* Example height */
+}
+
+.custom-radial-gradient{
+    background: conic-gradient(from 180deg at 50% 50%, #6448ff 0deg, #6448ff 120.07deg, #6448ff 179.52deg, #6448ff 241.65deg, #6448ff 299.6deg, #6448ff 360deg);
+    border-radius: 50%;
+    font-size: 250px;
+    height: 250px;
+    width: 250px;
+    filter: blur(32px);
+}
+.custom-radial-gradient2{
+    background: conic-gradient(from 180deg at 50% 50%, #5e41ff 0deg, #5537ff 120.07deg, #219ed8 179.52deg, #5537ff 241.65deg, #219ed8 299.6deg, #5537ff 360deg);
+    border-radius: 50%;
+    font-size: 250px;
+    height: 200px;
+    width: 200px;
+    filter: blur(32px);
+}
+.custom-radial-gradient3{
+    background: conic-gradient(from 200deg at 50% 50%, #219ed8 0deg, #219ed8 120.07deg, #219ed8 179.52deg, #219ed8 241.65deg, #219ed8 299.6deg, #219ed8 360deg);
+    border-radius: 50%;
+    font-size: 250px;
+    height: 200px;
+    width: 200px;
+    filter: blur(32px);
+}
+.custom-radial-gradient4{
+    background: conic-gradient(from 200deg at 50% 50%, #5e41ff 0deg, #5e41ff 120.07deg, #5e41ff 179.52deg, #5e41ff 241.65deg, #5e41ff 299.6deg, #5e41ff 360deg);
+    border-radius: 50%;
+    font-size: 250px;
+    height: 700px;
+    width: 300px;
+    filter: blur(32px);
+}
+
+/* Mobile Styles (up to 767px) */
+@media only screen and (max-width: 767px) {
+    .custom-radial-gradient4{
+        height: 200px;
+        width: 150px;
+    }
+  }
+  
+  /* Tablet Styles (768px to 1023px) */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .custom-radial-gradient4{
+        height: 500px;
+        width: 200px;
+    }}
+  
+  /* Desktop Styles (1024px and above) */
+  /* @media only screen and (min-width: 1024px) {
+
+  } */
+  
+/* styles/globals.css */
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-spin-slow {
+    animation: spin 20s linear infinite;
+  }
+
+  .animate-spin-slow2 {
+    animation: spin 100s linear infinite;
+  }
+  
+
+  /* .bg-image {
+    background-image: url('image.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* or any desired height */
+/* }  */
+
+  .multi-color-gradient {
+    
+    background-image: linear-gradient(to right, #d89fb5, #a1349a ,#5b1d77, #453f9c ,#3d2977);
+ /* background-image: linear-gradient(to right, #f5afca, #860a7d ,#471061, #3f38a8 ,#020008); */
+    }
+    .multi-color-gradient2 {
+      background-image: linear-gradient(to bottom ,#5b1d77 , #86579c, #cacaca );
+   /* background-image: linear-gradient(to right, #f5afca, #860a7d ,#471061, #3f38a8 ,#020008); */
+      }
