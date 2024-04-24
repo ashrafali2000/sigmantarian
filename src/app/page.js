@@ -23,12 +23,12 @@ export default function Home() {
   return (
     <div>
       {/* //<div className="overflow-hidden"> */}
-      <div className="relative"> 
+      <div className="relative">
         <div className="absolute w-full">
           <Navbar />
         </div>
         <Hero />
-       </div>
+      </div>
       <Binance />
       <AboutUs />
       <Mission />
@@ -39,10 +39,10 @@ export default function Home() {
       {/* <Bonuses /> */}
       {/* <PassiveIncome /> */}
       {/* <Advertisement /> */}
-       <NFT />
-     <Rewards />
-       <PaymentMethod />
-     {/* <Cards /> */}
+      <NFT />
+      <Rewards />
+      <PaymentMethod />
+      {/* <Cards /> */}
       {/* <Animate /> */}
     </div>
   );

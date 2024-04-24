@@ -17,7 +17,7 @@ const Hero = () => {
       {/* <h1 className="lg:text-[80px] hidden md:block  w-1/2 md:text-7xl text-5xl top-60 left-4 z-50 absolute md:top-64 lg:top-[360px] xl:top-[300px] lg:left-[220px]  md:left-[90px] xl:text-[120px]  font-black">
         SIGMANTARIAN
       </h1> */}
-      <div class="w-full text-white lg:w-3/5 xl:w-2/5 absolute top-40 left-5 z-50 md:hidden">
+      <div class="text-white lg:w-3/5 xl:w-2/5 absolute top-40 left-5 z-50 md:hidden">
         <h1 class="text-4xl lg:text-4xl xl:text-5xl  font-black hhh">
           SIGMANTARIAN
         </h1>
