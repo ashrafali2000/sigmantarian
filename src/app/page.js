@@ -17,6 +17,7 @@ import Rewards from "@/component/Reward";
 import PaymentMethod from "@/component/PaymentMethod";
 import NrJohn from "@/component/NrJohn";
 import Cards from "@/component/Cards";
+import Footer from "@/component/Footer";
 // import AAA from "@/component/ThreeJsModal";
 
 export default function Home() {
@@ -34,7 +35,8 @@ export default function Home() {
       <Mission />
       <Freedom />
       {/* <BusinessCards /> */}
-      {/* <DirectBonus /> */}
+      <DirectBonus />
+      <Cards />
       {/* <InDirectBonus /> */}
       {/* <Bonuses /> */}
       {/* <PassiveIncome /> */}
@@ -42,8 +44,8 @@ export default function Home() {
       <NFT />
       <Rewards />
       <PaymentMethod />
-      {/* <Cards />
-       <Animate /> */}
+      {/*  <Animate /> */}
+       <Footer />
     </div>
   );
 }

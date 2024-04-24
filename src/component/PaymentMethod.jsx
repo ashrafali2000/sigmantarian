@@ -32,7 +32,7 @@ const PaymentMethod = () => {
           </li>
         </ul>
       </div>
-      <h1 className=" font-bold font-sans absolute text-3xl top-[60%] left-[18%] w-[70%] md:top-[60%] md:left-[38%] md:w-[70%]  lg:text-5xl lg:w-[50%] xl:left-[50%]">
+      <h1 className=" font-bold font-sans absolute text-3xl top-[60%] left-[15%] w-[70%] md:top-[60%] md:left-[38%] md:w-[70%]  lg:text-5xl lg:w-[50%] xl:left-[50%]">
         Crypto <span className="text-[#63297a]">require</span> for package
       </h1>
 

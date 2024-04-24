@@ -2,8 +2,8 @@ const Rewards = () => {
   return (
     <div className="relative text-white h-[550px] lg:h-[738px] xl:h-[640px]  overflow-hidden bg-[#571172e1] border-b-4 border-b-[#651385a1] ">
       <div className="absolute -right-40 top-3 custom-radial-gradient-purpleWhite opacity-60  z-0"></div>
-      <div className="absolute -left-20 -top-20 custom-radial-gradient-Whitepurple opacity-60  z-0"></div>
-      <div className="absolute -bottom-10 -left-40 custom-radial-gradient-Whitepurple opacity-60  z-0"></div> 
+      {/* <div className="absolute -left-20 -top-20 custom-radial-gradient-Whitepurple opacity-60  z-0"></div>
+      <div className="absolute -bottom-10 -left-40 custom-radial-gradient-Whitepurple opacity-60  z-0"></div>  */}
 
           <p className="hhhh font-serif font-bold  mb-3 text-3xl absolute top-[10%] left-[20%] md:text-5xl md:left-[50%] lg:text-6xl ">
             Reward Pool

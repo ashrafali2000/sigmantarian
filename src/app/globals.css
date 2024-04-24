@@ -155,6 +155,15 @@
  /* background-image: linear-gradient(to right, #f5afca, #860a7d ,#471061, #3f38a8 ,#020008); */
     }
     .multi-color-gradient2 {
-      background-image: linear-gradient(to bottom ,#5b1d77 , #86579c, #cacaca );
+      background-image: linear-gradient(to bottom ,#8a28b8 , #86579c, #cacaca );
    /* background-image: linear-gradient(to right, #f5afca, #860a7d ,#471061, #3f38a8 ,#020008); */
       }
+
+      .multi-color-gradient3 {
+        background-image: linear-gradient(to bottom  #cacaca, #86579c, #5b1d77 );
+     /* background-image: linear-gradient(to right, #f5afca, #860a7d ,#471061, #3f38a8 ,#020008); */
+        }
+
+        .cardShadow{
+          box-shadow: 7px 7px 2px rgb(212, 212, 212);
+        }
