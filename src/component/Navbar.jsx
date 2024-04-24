@@ -76,7 +76,10 @@ export default function Example() {
                   src="./search.png"
                   className="w-8 rounded-full z-40  cursor-pointer hidden md:block"
                 />
-                <img src="./metamask2.png" className="w-14 rounded-full z-40 hidden md:block" />
+                <img
+                  src="./metamask2.png"
+                  className="w-14 rounded-full z-40 hidden md:block"
+                />
                 {/* Profile dropdown */}
                 {/* <Menu as="div" className="relative ml-3">
                   <div>
@@ -138,7 +141,7 @@ export default function Example() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2">
+            <div className="space-y-1 px-2 pb-3 pt-2 z-50 bg-[#908de5] absolute w-full">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
