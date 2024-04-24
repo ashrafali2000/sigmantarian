@@ -1,10 +1,13 @@
 const AboutUs = () => {
   return (
-    <div className="relative  h-[554px] lg:h-[738px] xl:h-[640px]  overflow-hidden bg-[#6513857c] border-b-4 border-b-[#651385a1] ">
+    <div className="relative  h-[554px] lg:h-[738px] xl:h-[640px]  overflow-hidden bg-[#651385af] border-b-4 border-b-[#651385a1] ">
       {/* <div className="absolute left-0 -bottom-10 custom-radial-gradient2  opacity-60 z-0"></div> */}
       {/* <div className="absolute -right-28 top-20 custom-radial-gradient3  opacity-60 z-0"></div> */}
       {/* <div className="custom-radial-gradient rounded-full inset-0 backdrop-filter backdrop-blur-lg absolute -top-20 -left-16"></div> */}
-
+      <img
+        src="./0006-removebg-preview.png"
+        className="w-36 absolute -right-10 top-10 opacity-30 md:top-44 md:w-64 lg:top-60 lg:w-96 lg:-right-28 xl:w-[400px]"
+      />
       {/* <img
         src="./0009-removebg-preview.png"
         className="w-32 md:w-48 lg:w-60 xl:w-44 animate-spin-slow2 absolute top-14 right-0 md:right-14 lg:right-20 xl:right-32"
@@ -17,7 +20,7 @@ const AboutUs = () => {
       {/* <div className="flex justify-center items-center gap-1 max-w-7xl mx-auto relative  "> */}
       <img
         src="./handsss.png"
-        className="w-3/4 h-40 rounded-2xl absolute bottom-[3%] left-8  md:top-44 md:w-[40%] lg:w-[45%] lg:h-[40%] xl:w-[40%] xl:left-14"
+        className="w-3/4 h-40 rounded-2xl absolute bottom-[3%] left-8  md:top-[25%] md:w-[45%] md:h-[40%] lg:w-[45%] lg:h-[40%] xl:w-[40%] xl:left-14"
       />
     
 

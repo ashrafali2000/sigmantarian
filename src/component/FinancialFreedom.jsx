@@ -1,6 +1,6 @@
 const Freedom = () => {
   return (
-    <div className="relative h-[554px] lg:h-[738px] xl:h-[640px] overflow-hidden bg-[#651385b6] ">
+    <div className="relative h-[554px] lg:h-[738px] xl:h-[640px] overflow-hidden bg-[#672581dc] ">
       {/* <div className="absolute -left-20 -top-20 custom-radial-gradient-Whitepurple opacity-60  z-0"></div> */}
 
       {/* <div className="custom-radial-gradient rounded-full inset-0 backdrop-filter backdrop-blur-lg absolute -top-20 -left-16"></div> */}

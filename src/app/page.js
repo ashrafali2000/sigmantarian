@@ -42,8 +42,8 @@ export default function Home() {
       <NFT />
       <Rewards />
       <PaymentMethod />
-      {/* <Cards /> */}
-      {/* <Animate /> */}
+      {/* <Cards />
+       <Animate /> */}
     </div>
   );
 }
