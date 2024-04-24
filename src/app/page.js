@@ -29,19 +29,19 @@ export default function Home() {
         </div>
         <Hero />
       </div>
-      {/* <Binance />
+      <Binance />
       <AboutUs />
       <Mission />
-      <Freedom /> */}
+      <Freedom />
       {/* <BusinessCards /> */}
       {/* <DirectBonus /> */}
       {/* <InDirectBonus /> */}
       {/* <Bonuses /> */}
       {/* <PassiveIncome /> */}
       {/* <Advertisement /> */}
-      {/* <NFT />
+      <NFT />
       <Rewards />
-      <PaymentMethod /> */}
+      <PaymentMethod />
       {/* <Cards /> */}
       {/* <Animate /> */}
     </div>
