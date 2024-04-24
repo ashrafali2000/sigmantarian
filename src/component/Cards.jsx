@@ -8,12 +8,12 @@ const Cards = () => {
       <div className="absolute top-28  left-40">
         <div className="flex gap-20">
           <div className="flex flex-col gap-7">
-            <div class=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
+            <div className=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
               <div
                 href="#"
                 className="flex flex-col h-56 w-[450px] items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               >
-                <span class="absolute top-5 z-0 h-[44px] w-[200px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
+                <span className="absolute top-5 z-0 h-[44px] w-[200px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
 
                 {/* <img
                   className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
@@ -35,12 +35,12 @@ const Cards = () => {
               </div>
             </div>
 
-            <div class=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
+            <div className=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
               <div
                 href="#"
                 className="flex h-56 flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               >
-                <span class="absolute top-8 z-0 h-[44px] w-[140px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
+                <span className="absolute top-8 z-0 h-[44px] w-[140px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
 
                 {/* <img
                   className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
@@ -63,12 +63,12 @@ const Cards = () => {
           </div>
 
           <div className="flex flex-col gap-7">
-            <div class=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
+            <div className=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
               <div
                 href="#"
                 className="flex h-56  flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               >
-                <span class="absolute top-8 z-0 h-[44px] w-[200px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
+                <span className="absolute top-8 z-0 h-[44px] w-[200px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
 
                 {/* <img
                   className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
@@ -89,13 +89,13 @@ const Cards = () => {
               </div>
             </div>
 
-            <div class=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
-              {/* <div class="transform rounded-lg w-[450px]  bg-slate-50  transition duration-500 hover:scale-110 "> */}
+            <div className=" transform hover:scale-110 rounded-lg group relative cursor-pointer overflow-hidden bg-white shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 ">
+              {/* <div className="transform rounded-lg w-[450px]  bg-slate-50  transition duration-500 hover:scale-110 "> */}
               <div
                 href="#"
                 className="flex flex-col h-56 items-center   transition-all duration-300 bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
               >
-                <span class="absolute top-8 z-0 h-[44px] w-[200px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
+                <span className="absolute top-8 z-0 h-[44px] w-[200px] rounded-full bg-[#9420a3d0]   hover:bg-[#760f9e69] transition-all duration-300 group-hover:scale-[10]"></span>
                 {/* <img
                   className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                   src="./graphImageWithMan.jpg"
@@ -129,5 +129,5 @@ export default Cards;
   /* <RotatingImage src="metamask2.png" alt="Description" /> */
 }
 {
-  /* <div class="transform h-[450px] rounded-lg  bg-slate-50 w-80 transition duration-500 hover:scale-110 "></div> */
+  /* <div className="transform h-[450px] rounded-lg  bg-slate-50 w-80 transition duration-500 hover:scale-110 "></div> */
 }

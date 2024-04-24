@@ -29,26 +29,26 @@ export default function Home() {
         </div>
         <Hero />
       </div>
-      <Binance />
+      {/* <Binance />
       <AboutUs />
       <Mission />
-      <Freedom />
+      <Freedom /> */}
       {/* <BusinessCards /> */}
       {/* <DirectBonus /> */}
       {/* <InDirectBonus /> */}
       {/* <Bonuses /> */}
       {/* <PassiveIncome /> */}
       {/* <Advertisement /> */}
-      <NFT />
+      {/* <NFT />
       <Rewards />
-      <PaymentMethod />
+      <PaymentMethod /> */}
       {/* <Cards /> */}
       {/* <Animate /> */}
     </div>
   );
 }
 {
-  /* <div class="bg-gradient-to-br from-blue-500 via-green-400 to-yellow-500 rounded-full w-72 h-40"></div> */
+  /* <div className="bg-gradient-to-br from-blue-500 via-green-400 to-yellow-500 rounded-full w-72 h-40"></div> */
 }
 {
   /* <div className="bg-radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c)"></div> */

@@ -20,11 +20,11 @@ export default function Example() {
     <Disclosure as="nav" className="border-b-[1px] border-[#888888]">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8 ">
+          <div className="mx-auto max-w-7xl px-2 md:py-3  sm:px-6 lg:px-8 ">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className=" z-50 relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-[#808080] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className=" z-50 relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-[#78428d] hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="absolute -inset-0.5" />
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -141,7 +141,7 @@ export default function Example() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pb-3 pt-2 z-50 bg-[#908de5] absolute w-full">
+            <div className="space-y-1 px-2 pb-3 pt-2 z-50 bg-[#7d35a7] absolute w-full">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
@@ -149,7 +149,7 @@ export default function Example() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-900 text-white"
+                      ? "bg-[#5c247c] text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white",
                     "block rounded-md px-3 py-2 text-base font-medium"
                   )}
