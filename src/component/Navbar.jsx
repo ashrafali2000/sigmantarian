@@ -78,7 +78,7 @@ export default function Example() {
                 />
 
                 <a
-                  href="#_"
+                  href="/menu"
                   class="relative px-5 py-3 overflow-hidden font-bold text-[#541d69] bg-gray-100 border border-gray-100 rounded-lg shadow-inner group"
                 >
                   <span CLASS="absolute top-0 left-0 w-0 h-0 transition-all duration-200 border-t-2 border-gray-600 group-hover:w-full ease"></span>

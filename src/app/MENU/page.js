@@ -1,9 +1,11 @@
-import React from 'react'
+import WalletNavbar from '@/component/WalletNavbar'
+import RegistrationDashboard from '@/component/RegistrationDashboard'
 
 const page = () => {
   return (
     <div>
-      Home Page
+      <WalletNavbar />
+      <RegistrationDashboard />
     </div>
   )
 }

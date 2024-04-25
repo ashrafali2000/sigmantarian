@@ -45,7 +45,7 @@ export default function Home() {
       <Rewards />
       <PaymentMethod />
       {/*  <Animate /> */}
-       <Footer />
+       {/* <Footer /> */}
     </div>
   );
 }
