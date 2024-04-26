@@ -45,7 +45,7 @@ const Binance = () => {
         className="w-40 absolute top-80 -right-10 md:top-36 md:w-64 lg:w-96 lg:-right-20 xl:w-[400px] animate-spin-slow2"
       />
 
-      z
+      
     </div>
   );
 };
