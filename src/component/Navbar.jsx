@@ -61,23 +61,6 @@ export default function Example() {
                         {item.name}
                       </a>
                     ))}
-
-                    {/* ///////////// */}
-
-                    {/* //////////// */}
-                    {/* <a
-                      href="/#"
-                      className="relative px-3 py-2 overflow-hidden font-bold text-[#541d69] bg-gray-100   rounded-lg shadow-inner group"
-                    >
-                      <span CLASS="absolute top-0 left-0 w-0 h-0 transition-all duration-200   group-hover:w-full ease"></span>
-                      <span CLASS="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200  group-hover:w-full ease"></span>
-                      <span CLASS="absolute top-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
-                      <span CLASS="absolute bottom-0 left-0 w-full h-0 transition-all duration-300 delay-200 bg-gray-600 group-hover:h-full ease"></span>
-                      <span CLASS="absolute inset-0 w-full h-full duration-300 delay-300 bg-[#752a92] opacity-0 group-hover:opacity-100"></span>
-                      <span CLASS="relative transition-colors duration-300 delay-200 group-hover:text-white ease">
-                        Connect Wallet
-                      </span>
-                    </a> */}
                   </div>
                 </div>
               </div>
@@ -90,16 +73,17 @@ export default function Example() {
                   <span className="sr-only">View notifications</span>
                   <BellIcon className="h-6 w-6" aria-hidden="true" />
                 </button> */}
-                <Modal />
+
+                  <Modal />
 
                 <img
                   src="./sss.png"
-                  className="w-6 rounded-full z-40 hidden lg:block  cursor-pointer "
+                  className="w-6  rounded-full z-40 hidden lg:block  cursor-pointer lg:ml-[60px] xl:ml-[300px] "
                 />
 
                 <a
                   href="/menu"
-                  className="relative hidden lg:block px-1 py-2 overflow-hidden font-bold text-[#541d69] bg-gray-100   rounded-lg shadow-inner group"
+                  className="relative text-md hidden lg:block px-3 py-2 overflow-hidden font-bold text-[#541d69] bg-gray-100   rounded-lg shadow-inner group"
                 >
                   <span CLASS="absolute top-0 left-0 w-0 h-0 transition-all duration-200   group-hover:w-full ease"></span>
                   <span CLASS="absolute bottom-0 right-0 w-0 h-0 transition-all duration-200  group-hover:w-full ease"></span>
