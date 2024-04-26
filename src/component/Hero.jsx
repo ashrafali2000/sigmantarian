@@ -7,10 +7,10 @@ const Hero = () => {
     >
       {/* <div className="relative z-10"> */}
       <h1 className="text-sm top-[40%] left-[7%] z-40 md:text-2xl md:top-[38%] md:left-[15%] lg:text-3xl lg:top-[38%] lg:left-[15%]  xl:text-4xl xl:top-[37%] xl:left-[15%]   font-sans font-extralight text-white absolute  hhh">
-        WHERE YOUR BUSINESS, FREEDOM, BEGINS
+        WHERE YOUR BUSINESS FREEDOM  BEGINS
       </h1>
 
-      <h1 className="text-3xl z-50 hidden md:block   md:text-6xl md:top-[45%] md:left-[15%]   lg:text-7xl lg:top-[45%] lg:left-[15%] xl:text-8xl text-white font-bold absolute xl:top-[45%] xl:left-[15%] font-serif hhh">
+      <h1 className="text-3xl z-40 hidden md:block   md:text-6xl md:top-[45%] md:left-[15%]   lg:text-7xl lg:top-[45%] lg:left-[15%] xl:text-8xl text-white font-bold absolute xl:top-[45%] xl:left-[15%] font-serif hhh">
         SIGMANTARIAN
       </h1>
 
@@ -37,10 +37,10 @@ const Hero = () => {
         src="./0003-removebg-preview.png "
         className="hidden md:block lg:w-72 w-20 right-5  md:w-48  absolute bottom-20 lg:bottom-0 md:bottom-10 md:right-28 z-0 animate-spin-slow"
       />
-      <img
+      {/* <img
         src="./0004-removebg-preview.png "
         className="lg:w-72   md:w-56 w-36 -bottom-8 -left-4 absolute md:-bottom-20 md:-left-10 z-0"
-      />
+      /> */}
     </div>
     // </div>
   );

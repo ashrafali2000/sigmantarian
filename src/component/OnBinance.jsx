@@ -45,10 +45,7 @@ const Binance = () => {
         className="w-40 absolute top-80 -right-10 md:top-36 md:w-64 lg:w-96 lg:-right-20 xl:w-[400px] animate-spin-slow2"
       />
 
-      <img
-        src="./0008-removebg-preview.png"
-        className="w-60 absolute -bottom-28 -left-8 md:w-72 lg:w-96 lg:-bottom-40"
-      />
+      z
     </div>
   );
 };

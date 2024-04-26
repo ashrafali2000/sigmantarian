@@ -18,7 +18,7 @@ import PaymentMethod from "@/component/PaymentMethod";
 import NrJohn from "@/component/NrJohn";
 import Cards from "@/component/Cards";
 import Footer from "@/component/Footer";
-// import AAA from "@/component/ThreeJsModal";
+// import AAA from "@@/component/TestJsModal";
 
 export default function Home() {
   return (
@@ -35,7 +35,7 @@ export default function Home() {
       <Mission />
       <Freedom />
       {/* <BusinessCards /> */}
-      <DirectBonus />
+      {/* <DirectBonus /> */}
       <Cards />
       {/* <InDirectBonus /> */}
       {/* <Bonuses /> */}
