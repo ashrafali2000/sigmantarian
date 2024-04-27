@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const Modal = ({ children }) => {
-  const [isOpen , setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleOpenModal = () => setIsOpen(true);
   const handleCloseModal = () => setIsOpen(false);
@@ -53,25 +53,36 @@ const Modal = ({ children }) => {
                 </button>
               </div>
               <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-4 md:p-5 space-y-4 mt-8  w-full flex flex-col items-center">
-                <p className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5">
-                  <img src="/mm.png" className="w-14 h-14"  />
+                <p
+                  onClick={handleCloseModal}
+                  className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5"
+                >
+                  <img src="/mm.png" className="w-14 h-14" />
                   <h2 className="text-lg md:text-2xl   py-3 cursor-pointer font-semibold text-white dark:text-white">
                     Metamask
                   </h2>
                 </p>
-                <p className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5">
+                <p
+                  onClick={handleCloseModal}
+                  className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5"
+                >
                   <img src="/mp.png" className="w-10 h-10" />
                   <h2 className="text-lg md:text-2xl  py-3 cursor-pointer font-semibold text-white dark:text-white">
                     Coinbase Wallet
                   </h2>
                 </p>
-                <p className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5">
+                <p
+                  onClick={handleCloseModal}
+                  className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5">
                   <img src="/mo.png" className="w-10 h-10" />
                   <h2 className="text-lg md:text-2xl  py-3 cursor-pointer font-semibold text-white dark:text-white">
                     WalletConnect
                   </h2>
                 </p>
-                <p className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5">
+                <p
+                  onClick={handleCloseModal}
+                  className="flex justify-between items-center bg-purple-300 w-[240px] md:w-[460px] px-5"
+                >
                   <img src="/mn.png" className="w-12 h-12" />
                   <h2 className="text-lg md:text-2xl  py-3 cursor-pointer font-semibold text-white dark:text-white">
                     TrustWallet

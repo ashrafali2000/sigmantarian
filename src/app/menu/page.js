@@ -3,7 +3,7 @@ import RegistrationDashboard from '@/component/RegistrationDashboard'
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-[#3f054f] h-screen">
       <WalletNavbar />
       <RegistrationDashboard />
     </div>
