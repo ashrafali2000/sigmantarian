@@ -4,7 +4,7 @@ const NFT = () => {
   return (
     <div className="bg-[#651385b6]  h-[554px] lg:h-[738px] xl:h-[740px]  text-white  relative overflow-hidden">
       <h1 className="hhh font-bold absolute text-4xl top-[10%] left-[5%] md:top-[12%] md:left-[10%] md:text-5xl  lg:text-6xl xl:text-7xl xl:top-20 xl:left-40 xl:w-[600px]">
-        NFT ( Non-Fungible toke)
+        NFT ( Non-Fungible token)
       </h1>
       <img
         src="./nft.jpg"

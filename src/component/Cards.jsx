@@ -154,7 +154,7 @@ const Cards = () => {
                   </svg>
                 </span>
                 <p className="block font-sans text-base antialiased font-normal leading-relaxed text-inherit">
-                  Adver t isement Bonus.{" "}
+                  Advertisement Bonus.{" "}
                 </p>
               </li>
               <li className="flex items-center gap-4">
@@ -269,7 +269,7 @@ const Cards = () => {
             <br />
             <span className="text-xl  text-white leading-normal    sm:block">
               Every user and package holder will get a chance to perform task to
-              increase there earning from $0.01 to $1 dailyy.{" "}
+              increase there earning from $0.01 to $1 daily.{" "}
             </span>
           </a>
         </div>

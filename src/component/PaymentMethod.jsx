@@ -38,7 +38,7 @@ const PaymentMethod = () => {
 
       <ul className="text-xl font-semibold list-disc font-sans absolute top-[75%]  left-[20%] w-[450px] md:left-[50%] lg:text-3xl lg:top-[80%]">
         <li>USDT</li>
-        <li>BNB (smartChai)</li>
+        <li>BNB (smartChain)</li>
       </ul>
 
       <img

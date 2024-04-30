@@ -1,6 +1,6 @@
 "use client";
 import { Fragment } from "react";
-import Modal from "./WalletModal";
+import Modal from "./WalletModal2";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 

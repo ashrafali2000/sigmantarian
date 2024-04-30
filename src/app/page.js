@@ -18,34 +18,44 @@ import PaymentMethod from "@/component/PaymentMethod";
 import NrJohn from "@/component/NrJohn";
 import Cards from "@/component/Cards";
 import Footer from "@/component/Footer";
-// import AAA from "@@/component/TestJsModal";
+// import AAA from "@@/component/TestJsModal";'
+import Modal from '@/component/WalletModal2'
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-rose-900 overflow-hidden">
       {/* //<div className="overflow-hidden"> */}
-      <div className="relative">
+      {/* <div className="relative">
         <div className="absolute w-full">
           <Navbar />
         </div>
         <Hero />
-      </div>
-      <Binance />
+      </div> */}
+      {/* <Binance />
       <AboutUs />
       <Mission />
-      <Freedom />
+      <Freedom /> */}
       {/* <BusinessCards /> */}
       {/* <DirectBonus /> */}
-      <Cards />
+      {/* <Cards /> */}
       {/* <InDirectBonus /> */}
       {/* <Bonuses /> */}
       {/* <PassiveIncome /> */}
       {/* <Advertisement /> */}
-      <NFT />
+      {/* <NFT />
       <Rewards />
-      <PaymentMethod />
+      <PaymentMethod /> */}
       {/*  <Animate /> */}
-       {/* <Footer /> */}
+      {/* <Footer /> */}
+      <div className="text-center py-10">
+        <Modal open={data} setOpen={setData} />
+        <button
+          onClick={() => setData(true)}
+          className="border rounded-full px-8 py-3 text-2xl bg-blue-500 hover:bg-blue-800 text-white my-3"
+        >
+          connect wallet
+        </button>
+      </div>
     </div>
   );
 }

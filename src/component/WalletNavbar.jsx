@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Modal from "./WalletModal";
+import Modal from "./WalletModal2";
 
 const WalletNavbar = () => {
   const [data, setData] = useState(false);
